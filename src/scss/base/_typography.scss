@@ -1,0 +1,21 @@
+@use '../utils/variables' as vars;
+body {
+  font-family: Arial, sans-serif;
+  background-color: vars.$bg-color;
+  color: vars.$text-color;
+  padding: 1rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}

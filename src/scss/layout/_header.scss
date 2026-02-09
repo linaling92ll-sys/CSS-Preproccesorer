@@ -1,0 +1,10 @@
+@use '../utils/variables' as vars;
+@use '../utils/mixins' as mixins;
+
+header {
+  @include mixins.center;
+  flex-direction: column;
+  padding: 2rem 0;
+  background-color: vars.$primary-color;
+  color: white;                          
+}
