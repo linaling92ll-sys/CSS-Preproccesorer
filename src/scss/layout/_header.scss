@@ -8,3 +8,9 @@ header {
   background-color: vars.$primary-color;
   color: white;                          
 }
+
+@media (prefers-color-scheme: dark) {
+  header {
+    background-color: vars.$dark-primary-color;
+  }
+}

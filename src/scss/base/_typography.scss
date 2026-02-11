@@ -3,15 +3,24 @@ body {
   font-family: Arial, sans-serif;
   background-color: vars.$bg-color;
   color: vars.$text-color;
-  padding: 1rem;
+  margin: 0;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: vars.$dark-bg-color;
+    color: vars.$dark-text-color;
+  }
 }
 
 h1, h2 {
   margin-bottom: 1rem;
 }
 
-p {
+p, section {
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 img {

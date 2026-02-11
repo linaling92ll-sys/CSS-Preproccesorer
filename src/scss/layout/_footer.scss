@@ -1,0 +1,14 @@
+@use '../utils/variables' as vars;
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: vars.$secondary-color;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    background-color: vars.$dark-secondary-color;
+  }
+}
