@@ -17,8 +17,15 @@ body {
   }
 
   overflow-x: hidden;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+main {
+  flex: 1;
+}
 h1,
 h2 {
   margin-bottom: 1rem;
