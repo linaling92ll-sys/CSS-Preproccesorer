@@ -13,6 +13,9 @@ body {
     background-color: vars.$dark-bg-color;
     color: vars.$dark-text-color;
   }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1, h2 {
